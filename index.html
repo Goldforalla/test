@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+	<head>
+		<title>Мой первый JavA SCRIPT</title>
+	</head>
+	<style>
+	#img1{width: 150px;}
+	.myClass {width: 150px; 
+			  height: 150px; 
+			  background: yellow; 
+			  position: relative; }
+
+	#box {width: 30px; 
+		  height: 30px; 
+		  background: #333; 
+		  position: absolute; 
+		  }
+
+	#forbutt {
+		width: 200px;
+		height: 100px;
+		background-color: orange;
+		position: relative;
+	}
+
+
+
+	
+/* ------------------------------------------------------*/
+
+	.myClass2{
+		width:500px;
+		height:250px;
+		margin:0 auto;
+		position: relative;
+		color: yellow;
+		
+		
+	}
+	#nSlide {
+		float: left;
+		height: 50px;
+		position: absolute;
+		margin:125px -570px;
+		
+	}
+
+	#vSlide {
+		margin:125px 15px;
+		position: absolute;
+		float: left;
+		height: 50px;
+	}
+
+	#slider {
+		width:500px;
+		height:250px;
+		float:left;
+		margin:0 auto;
+		
+	}
+	</style>
+
+	<body>
+
+		<h1 id="ha1">Угадай Число</h1>
+			<h2 id="ha2"> </h2>
+		<div class="myClass"></div>
+
+	<label><input type="radio" name="rd1" value="1"> 1
+		<input type="radio" name="rd1" value="13"> 2
+		<input type="radio" name="rd1" value="33"> 3
+	<label>
+	отделяем 
+<!--
+		<div class="myClass">
+			<div id=box> </div>
+		</div>
+-->
+			<!--
+		<div id="btn">
+			<button  onclick=answer() id="butt">Нажми меня </button>
+
+		</div>
+
+
+
+Слайдер  
+		<div class="myClass2">
+
+			<button  id="nSlide" onclick="prev()">Назад</button>
+			
+			<img id="slider" src="img/6.jpg" >
+
+			<button id="vSlide" onclick="next()">Вперед</button>
+
+		</div> 
+	-->
+------------------------------------------------------------
+	<!--Отключаем пока 
+		<div class="myClass"></div>
+		<div class="myClass">
+			<button onclick="document.getElementById('img1').src='smile_2.png'">Закрась</button>
+			<img id="img1" src="smile_1.png">
+			<button onclick="document.getElementById('img1').src='smile_1.png'">Верни!</button>
+		</div>
+		<div class="myClass"></div> 
+Отключаем пока --> 
+
+<!--Подключаем внешний файл-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+	<script src="app.js"></script>
+
+	
+		
+
+	
+	</body>
+
+</html>
